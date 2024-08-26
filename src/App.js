@@ -25,8 +25,8 @@ function App() {
           La BEST Mati
         </a>
         hola {nombre}. <div>Cantidad de votos = {count} </div>
-        <Counter nombre={nombre} updateCount={increaseCount} />
-        <Counter nombre={nombre1}updateCount={increaseCount} />
+        <Counter nombre={nombre}  updateCount={increaseCount} />
+        <Counter nombre={nombre1} updateCount={increaseCount} />
       </header>
     </div>
   );
