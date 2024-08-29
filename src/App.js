@@ -4,7 +4,6 @@ import { Counter } from './Counter';
 import React, { useState } from 'react';
 import { VoltingItems } from './VoltingItems';
 
-
 function App() {
   const nombre = "Mati";
   const nombre1 = "Leandro";
