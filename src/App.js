@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Counter } from './Counter';
 import React, { useState } from 'react';
+import { VoltingItems } from './VoltingItems';
+
 
 function App() {
   const nombre = "Mati";
@@ -13,9 +15,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edita pibe <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -24,6 +23,7 @@ function App() {
         >
           La BEST Mati
         </a>
+        <VoltingItems/>
         hola {nombre}. <div>Cantidad de votos = {count} </div>
         <Counter nombre={nombre}  updateCount={increaseCount} />
         <Counter nombre={nombre1} updateCount={increaseCount} />
