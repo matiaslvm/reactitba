@@ -22,7 +22,8 @@ function App() {
         >
           La BEST Mati
         </a>
-        <VoltingItems/>
+        <VoltingItems/> <br></br>
+        
         hola {nombre}. <div>Cantidad de votos = {count} </div>
         <Counter nombre={nombre}  updateCount={increaseCount} />
         <Counter nombre={nombre1} updateCount={increaseCount} />
